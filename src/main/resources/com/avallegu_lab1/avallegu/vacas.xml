@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="no"?>
+<rdf:RDF xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlns:admin="http://webns.net/mvcb/" xmlns:doap="http://usefulinc.com/ns/doap#" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:foaf="http://xmlns.com/foaf/0.1/" xmlns:h="http://www.w3.org/1999/xhtml" xmlns:rdfs="http://www.w3.org/2000/01/rdf-schema#">
+<rdf:Description rdf:about="">
+<admin:generatorAgent rdf:resource="http://purl.org/NET/erdf/extract"/>
+</rdf:Description>
+<rdf:Description rdf:about=""/>
+<rdf:Description rdf:about="#sid-7B8FCED2-CA8F-4371-A164-FB8F1BD4EFD7">
+<type xmlns="http://oryx-editor.org/">Decision</type>
+<bounds xmlns="http://oryx-editor.org/">331,201,230,120</bounds>
+<entry xmlns="http://oryx-editor.org/"/>
+<bgcolor xmlns="http://oryx-editor.org/">#FFFFCC</bgcolor>
+<decision xmlns="http://oryx-editor.org/">{"version":"1.0","type":"decisionTable","hitPolicy":"noOrder","isComplete":true,"aggregation":"sum","inputClauses":[{"expression":{"id":"","expressionType":"reference","shapeId":"sid-07487435-02C9-40AD-83BB-5C1B8523C9D7"},"id":"060E8C4E-64FE-4D0B-A1C3-0E6139CFDC06","width":100},{"expression":{"id":"","expressionType":"reference","shapeId":"sid-E9EA71A5-4EF7-47A6-A1D3-7FD5F546A6E5"},"id":"BC05ADAE-08DF-49D2-8CFB-BE9BCD8F32D2","width":100}],"outputClauses":[{"itemDefinition":{"definitionType":"default","type":"number","isList":false,"name":"Días Adocionales","width":100,"min":"","max":""},"id":"4C665323-33C8-4D8A-B694-0458238C4889","width":100}],"annotations":[{"id":"146161A9-F1C3-4167-9B48-A21B2E55FD33","name":"","category":"info","width":296}],"rules":[{"id":"2363","condition":[{"expressionType":"any"},{"expressionType":"any"}],"conclusion":[{"expressionType":"simpleLiteral","value":22,"type":"number"}],"annotation":[{"expressionType":"any"}]},{"id":"1125","condition":[{"expressionType":"negation","operand":{"expressionType":"interval","start":{"expressionType":"simpleLiteral","value":18,"type":"number"},"end":{"expressionType":"simpleLiteral","value":60,"type":"number"},"openStart":false,"openEnd":false}},{"expressionType":"any"}],"conclusion":[{"expressionType":"simpleLiteral","value":5,"type":"number"}],"annotation":[{"expressionType":"any"}]},{"id":"2473","condition":[{"expressionType":"any"},{"expressionType":"unaryComparison","operator":"greaterOrEqual","operand":{"expressionType":"simpleLiteral","value":30,"type":"number"}}],"conclusion":[{"expressionType":"simpleLiteral","value":5,"type":"number"}],"annotation":[{"expressionType":"any"}]},{"id":"1753","condition":[{"expressionType":"unaryComparison","operator":"greaterOrEqual","operand":{"expressionType":"simpleLiteral","value":60,"type":"number"}},{"expressionType":"unaryComparison","operator":"greaterOrEqual","operand":{"expressionType":"simpleLiteral","value":30,"type":"number"}}],"conclusion":[{"expressionType":"simpleLiteral","value":3,"type":"number"}],"annotation":[{"expressionType":"any"}]},{"id":"1789","condition":[{"expressionType":"any"},{"expressionType":"interval","start":{"expressionType":"simpleLiteral","value":15,"type":"number"},"end":{"expressionType":"simpleLiteral","value":30,"type":"number"},"openStart":false,"openEnd":false}],"conclusion":[{"expressionType":"simpleLiteral","value":2,"type":"number"}],"annotation":[{"expressionType":"any"}]},{"id":"1829","condition":[{"expressionType":"unaryComparison","operator":"greaterOrEqual","operand":{"expressionType":"simpleLiteral","value":45,"type":"number"}},{"expressionType":"any"}],"conclusion":[{"expressionType":"simpleLiteral","value":2,"type":"number"}],"annotation":[{"expressionType":"any"}]},{"id":"2457","condition":[{"expressionType":"any"},{"expressionType":"any"}],"conclusion":[{"expressionType":"any"}],"annotation":[{"expressionType":"any"}]}]}</decision>
+<question xmlns="http://oryx-editor.org/"/>
+<anwers xmlns="http://oryx-editor.org/"/>
+<name xmlns="http://oryx-editor.org/">Días de Vacaciones</name>
+<description xmlns="http://oryx-editor.org/"/>
+<decisionowner xmlns="http://oryx-editor.org/"/>
+<decisionmaker xmlns="http://oryx-editor.org/"/>
+<bordercolor xmlns="http://oryx-editor.org/">#000000</bordercolor>
+<docker xmlns="http://oryx-editor.org/"> # </docker>
+<outgoing xmlns="http://raziel.org/" rdf:resource="#sid-28D1032F-2174-4456-A60B-CAE6D4C964C6"/>
+<target xmlns="http://raziel.org/" rdf:resource="#sid-28D1032F-2174-4456-A60B-CAE6D4C964C6"/>
+<outgoing xmlns="http://raziel.org/" rdf:resource="#sid-0AA445D2-1FA7-44A6-B311-A836271ACC13"/>
+<target xmlns="http://raziel.org/" rdf:resource="#sid-0AA445D2-1FA7-44A6-B311-A836271ACC13"/>
+<parent xmlns="http://raziel.org/" rdf:resource="#canvas"/>
+</rdf:Description>
+<rdf:Description rdf:about="#sid-07487435-02C9-40AD-83BB-5C1B8523C9D7">
+<type xmlns="http://oryx-editor.org/">InputData</type>
+<bounds xmlns="http://oryx-editor.org/">250.5,291,150.5,231</bounds>
+<ignorecase xmlns="http://oryx-editor.org/">false</ignorecase>
+<datetype xmlns="http://oryx-editor.org/">date</datetype>
+<max xmlns="http://oryx-editor.org/"/>
+<enumitems xmlns="http://oryx-editor.org/"/>
+<length xmlns="http://oryx-editor.org/">m</length>
+<description xmlns="http://oryx-editor.org/"/>
+<weight xmlns="http://oryx-editor.org/">kg</weight>
+<type xmlns="http://oryx-editor.org/">number</type>
+<hierarchyitems xmlns="http://oryx-editor.org/"/>
+<typedef xmlns="http://oryx-editor.org/">simple</typedef>
+<bordercolor xmlns="http://oryx-editor.org/">#000000</bordercolor>
+<bgcolor xmlns="http://oryx-editor.org/">#FFFFCC</bgcolor>
+<min xmlns="http://oryx-editor.org/"/>
+<percentage xmlns="http://oryx-editor.org/"/>
+<name xmlns="http://oryx-editor.org/">Edad</name>
+<temperature xmlns="http://oryx-editor.org/">C</temperature>
+<currency xmlns="http://oryx-editor.org/">EUR</currency>
+<relations xmlns="http://oryx-editor.org/"/>
+<islist xmlns="http://oryx-editor.org/">false</islist>
+<serviceid xmlns="http://oryx-editor.org/"/>
+<docker xmlns="http://oryx-editor.org/"> # </docker>
+<parent xmlns="http://raziel.org/" rdf:resource="#canvas"/>
+</rdf:Description>
+<rdf:Description rdf:about="#sid-28D1032F-2174-4456-A60B-CAE6D4C964C6">
+<type xmlns="http://oryx-editor.org/">InformationRequirement</type>
+<bounds xmlns="http://oryx-editor.org/">248.32680399323235,231.0189093970625,224.09897725676765,200.2389031029375</bounds>
+<bordercolor xmlns="http://oryx-editor.org/">#000000</bordercolor>
+<docker xmlns="http://oryx-editor.org/">50 30 50 40  # </docker>
+<outgoing xmlns="http://raziel.org/" rdf:resource="#sid-07487435-02C9-40AD-83BB-5C1B8523C9D7"/>
+<target xmlns="http://raziel.org/" rdf:resource="#sid-07487435-02C9-40AD-83BB-5C1B8523C9D7"/>
+<parent xmlns="http://raziel.org/" rdf:resource="#canvas"/>
+</rdf:Description>
+<rdf:Description rdf:about="#sid-E9EA71A5-4EF7-47A6-A1D3-7FD5F546A6E5">
+<type xmlns="http://oryx-editor.org/">InputData</type>
+<bounds xmlns="http://oryx-editor.org/">490.5,291,390.5,231</bounds>
+<ignorecase xmlns="http://oryx-editor.org/">false</ignorecase>
+<datetype xmlns="http://oryx-editor.org/">date</datetype>
+<max xmlns="http://oryx-editor.org/"/>
+<enumitems xmlns="http://oryx-editor.org/"/>
+<length xmlns="http://oryx-editor.org/">m</length>
+<description xmlns="http://oryx-editor.org/"/>
+<weight xmlns="http://oryx-editor.org/">kg</weight>
+<type xmlns="http://oryx-editor.org/">number</type>
+<hierarchyitems xmlns="http://oryx-editor.org/"/>
+<typedef xmlns="http://oryx-editor.org/">simple</typedef>
+<bordercolor xmlns="http://oryx-editor.org/">#000000</bordercolor>
+<bgcolor xmlns="http://oryx-editor.org/">#FFFFCC</bgcolor>
+<min xmlns="http://oryx-editor.org/"/>
+<percentage xmlns="http://oryx-editor.org/"/>
+<name xmlns="http://oryx-editor.org/">Años de Servicio</name>
+<temperature xmlns="http://oryx-editor.org/">C</temperature>
+<currency xmlns="http://oryx-editor.org/">EUR</currency>
+<relations xmlns="http://oryx-editor.org/"/>
+<islist xmlns="http://oryx-editor.org/">false</islist>
+<serviceid xmlns="http://oryx-editor.org/"/>
+<docker xmlns="http://oryx-editor.org/"> # </docker>
+<parent xmlns="http://raziel.org/" rdf:resource="#canvas"/>
+</rdf:Description>
+<rdf:Description rdf:about="#sid-0AA445D2-1FA7-44A6-B311-A836271ACC13">
+<type xmlns="http://oryx-editor.org/">InformationRequirement</type>
+<bounds xmlns="http://oryx-editor.org/">402.0364475943726,236.7955215391379,330.3756617806274,191.7005722108621</bounds>
+<bordercolor xmlns="http://oryx-editor.org/">#000000</bordercolor>
+<docker xmlns="http://oryx-editor.org/">50 30 50 40  # </docker>
+<outgoing xmlns="http://raziel.org/" rdf:resource="#sid-E9EA71A5-4EF7-47A6-A1D3-7FD5F546A6E5"/>
+<target xmlns="http://raziel.org/" rdf:resource="#sid-E9EA71A5-4EF7-47A6-A1D3-7FD5F546A6E5"/>
+<parent xmlns="http://raziel.org/" rdf:resource="#canvas"/>
+</rdf:Description>
+<rdf:Description rdf:about="#canvas">
+<rdf:type rdf:resource="http://oryx-editor.org/canvas"/>
+<type xmlns="http://oryx-editor.org/">Diagram</type>
+<bounds xmlns="http://oryx-editor.org/">1485,1050,0,0</bounds>
+<documentation xmlns="http://oryx-editor.org/"/>
+<dmnformatversion xmlns="http://oryx-editor.org/">1.1.0</dmnformatversion>
+<render xmlns="http://oryx-editor.org/" rdf:resource="#sid-7B8FCED2-CA8F-4371-A164-FB8F1BD4EFD7"/>
+<render xmlns="http://oryx-editor.org/" rdf:resource="#sid-07487435-02C9-40AD-83BB-5C1B8523C9D7"/>
+<render xmlns="http://oryx-editor.org/" rdf:resource="#sid-28D1032F-2174-4456-A60B-CAE6D4C964C6"/>
+<render xmlns="http://oryx-editor.org/" rdf:resource="#sid-E9EA71A5-4EF7-47A6-A1D3-7FD5F546A6E5"/>
+<render xmlns="http://oryx-editor.org/" rdf:resource="#sid-0AA445D2-1FA7-44A6-B311-A836271ACC13"/>
+<stencilset xmlns="http://oryx-editor.org/" rdf:resource="/stencilsets/dmn-1.0/dmn-1.0.json?version=13.16.2"/>
+</rdf:Description>
+</rdf:RDF>
